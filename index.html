@@ -1,0 +1,258 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>JX数据 | 数据流转与加速服务</title><meta name="description" content="JX数据致力于提供高效、低延迟的数据加速服务，通过优质节点池、专线优化和严格的网络调度，为个人与企业用户解决数据流转过程中的卡顿与延迟问题。"><meta name="keywords" content="JX数据,网络加速,IPLC专线,流媒体解锁,游戏加速,数据流转"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-3be55ff801.fecds.cn/"><meta property="og:type" content="website"><meta property="og:title" content="JX数据 | 数据流转与加速服务"><meta property="og:description" content="JX数据致力于提供高效、低延迟的数据加速服务，通过优质节点池、专线优化和严格的网络调度，为个人与企业用户解决数据流转过程中的卡顿与延迟问题。"><meta property="og:url" content="https://p-3be55ff801.fecds.cn/"><meta property="og:site_name" content="JX数据"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-3be55ff801.fecds.cn/", "name": "JX数据 | 数据流转与加速服务", "description": "JX数据致力于提供高效、低延迟的数据加速服务，通过优质节点池、专线优化和严格的网络调度，为个人与企业用户解决数据流转过程中的卡顿与延迟问题。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="fe20185a458de5da5eeaf41f:c8bcb9d9ca08963065888153b8e42c263f2df143c696d828bbd712fd1006bfd6:d1d774b9102132ce634b"></head><body id="top"><style>
+  * {margin: 0;padding: 0;box-sizing: border-box}
+  :root {--bg: #ffffff;--fg: #111111;--muted: #555555;--accent: #ff5a00;--border: #e6e6e6;--light: #fafafa}
+  body {background: var(--bg);color: var(--fg);font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;line-height: 1.65;-webkit-font-smoothing: antialiased;padding-bottom: 60px}
+  a {color: inherit;text-decoration: none}
+  h1, h2, h3 {font-weight: 800;line-height: 1.25;letter-spacing: -0.01em}
+  h1 {font-size: clamp(2.5rem, 7vw, 5rem)}
+  h2 {font-size: clamp(1.5rem, 4vw, 2.2rem);margin-bottom: 0.6em}
+  h3 {font-size: 1.15rem;margin-bottom: 0.3em}
+  p {margin-bottom: 0.8em;color: var(--muted)}
+  .wrap {max-width: 1200px;margin: 0 auto;padding: 0 24px}
+
+  /* Hero */
+  .hero {padding: 60px 0 40px}
+  .hero-meta {font-size: 0.85rem;color: var(--accent);text-transform: uppercase;letter-spacing: 0.1em;margin-bottom: 24px;font-weight: 700}
+  .hero h1 span {color: var(--accent)}
+  .hero-lead {max-width: 680px;font-size: 1.1rem;color: var(--fg);margin: 24px 0 48px}
+  .dashboard {display: grid;grid-template-columns: repeat(4, 1fr);gap: 1px;background: var(--border);border: 1px solid var(--border)}
+  .tile {background: var(--bg);padding: 24px;position: relative;overflow: hidden}
+  .tile-label {font-size: 0.75rem;text-transform: uppercase;letter-spacing: 0.08em;color: var(--muted);margin-bottom: 12px}
+  .tile-value {font-size: 2.2rem;font-weight: 800;line-height: 1}
+  .tile-value span {color: var(--accent)}
+  .tile-unit {font-size: 0.9rem;color: var(--muted);margin-left: 4px;font-weight: 400}
+  .tile-note {font-size: 0.8rem;color: var(--muted);margin-top: 8px}
+
+  /* Sections */
+  section {padding: 64px 0;border-top: 1px solid var(--border)}
+  .section-intro {max-width: 720px;margin-bottom: 40px}
+  .section-intro .eyebrow {color: var(--accent);font-size: 0.8rem;text-transform: uppercase;letter-spacing: 0.1em;font-weight: 700;margin-bottom: 12px;display: block}
+
+  /* Cards */
+  .cards {display: grid;grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));gap: 24px}
+  .card {border-left: 4px solid var(--accent);padding: 8px 0 8px 20px}
+  .card h3 {margin-bottom: 8px}
+
+  /* Plans */
+  .plans-table {width: 100%;border-collapse: collapse;font-size: 0.95rem}
+  .plans-table th, .plans-table td {padding: 16px 12px;border-bottom: 1px solid var(--border);text-align: left;vertical-align: top}
+  .plans-table th {font-size: 0.8rem;text-transform: uppercase;letter-spacing: 0.05em;color: var(--muted);font-weight: 600;background: var(--light)}
+  .plans-table .plan-name {font-weight: 800;font-size: 1.1rem}
+  .plans-table .featured-col {background: rgba(255, 90, 0, 0.04)}
+  .plans-table .featured-col .plan-name {color: var(--accent)}
+  .plans-table .price {font-weight: 700;font-size: 1.05rem}
+  .plans-table .annual {font-size: 0.8rem;color: var(--muted)}
+  .tag {display: inline-block;background: var(--accent);color: #fff;font-size: 0.7rem;padding: 2px 8px;margin-left: 8px;border-radius: 2px;vertical-align: middle;font-weight: 600}
+
+  /* FAQ */
+  .faq-grid {display: grid;grid-template-columns: repeat(2, 1fr);gap: 32px 48px}
+  .faq-item {border-left: 4px solid var(--accent);padding-left: 20px}
+  .faq-item h3 {font-size: 1.05rem;margin-bottom: 8px}
+  .faq-item p {font-size: 0.95rem;margin: 0}
+
+  /* Clients */
+  .clients-note {border-left: 4px solid var(--accent);padding: 12px 0 12px 20px;font-size: 0.95rem;color: var(--muted)}
+
+  /* Nav */
+  .bottom-nav {position: fixed;bottom: 0;left: 0;right: 0;background: var(--bg);border-top: 1px solid var(--border);padding: 12px 24px;display: flex;justify-content: center;gap: 32px;font-size: 0.85rem;z-index: 100}
+  .bottom-nav a {color: var(--muted);transition: color 0.2s;white-space: nowrap}
+  .bottom-nav a:hover {color: var(--accent)}
+
+  @media (max-width: 768px) {
+    .dashboard {grid-template-columns: repeat(2, 1fr)}
+    .faq-grid {grid-template-columns: 1fr}
+    .bottom-nav {gap: 16px;font-size: 0.8rem;overflow-x: auto;justify-content: flex-start}
+    .plans-table {font-size: 0.85rem}
+    .plans-table th, .plans-table td {padding: 10px 6px}
+  }
+</style><main>
+  <header class="hero wrap">
+    <div class="hero-meta">JX 数据 · 运营简报 #0225</div>
+    <h1>JX数据 · 数据流转的<br><span>临界点</span></h1>
+    <p class="hero-lead">
+      在信息密度不断攀升的网络环境中，延迟与丢包不再是单纯的技术指标，而是用户体验的真实分水岭。JX数据专注于网络数据加速与链路优化，从节点调度到专线接入，为不同规模的使用者提供可预期的传输质量。
+    </p>
+
+    <div class="dashboard" aria-label="关键运营数据">
+      <div class="tile">
+        <div class="tile-label">活跃接入节点</div>
+        <div class="tile-value">68<span class="tile-unit">个区域</span></div>
+        <div class="tile-note">覆盖主流大洲核心机房</div>
+      </div>
+      <div class="tile">
+        <div class="tile-label">专线优化线路</div>
+        <div class="tile-value">12<span class="tile-unit">条 IPLC</span></div>
+        <div class="tile-note">直连不走公网穿越</div>
+      </div>
+      <div class="tile">
+        <div class="tile-label">月均稳定运行</div>
+        <div class="tile-value">99.<span>2</span><span class="tile-unit">%</span></div>
+        <div class="tile-note">基于过去一年抽样统计</div>
+      </div>
+      <div class="tile">
+        <div class="tile-label">服务响应中位</div>
+        <div class="tile-value"><span>15</span><span class="tile-unit">分钟</span></div>
+        <div class="tile-note">旗舰版工单首轮回复</div>
+      </div>
+    </div>
+  </header>
+
+  <section class="wrap" id="about">
+    <div class="section-intro">
+      <span class="eyebrow">关于服务</span>
+      <h2>不止于连接，更在于调度</h2>
+      <p>
+        网络加速的本质并非单纯叠加带宽，而是对数据包路径的精确干预。JX数据通过自研调度系统，根据实时网络状况在多个节点间动态分配负载，避免单一出口拥堵造成的连锁劣化。普通线路池满足日常浏览与流媒体观看，IPLC 专线则面向对延迟敏感的游戏与远程办公场景，提供更稳定的传输表现。
+      </p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <h3>动态节点池</h3>
+        <p>普通套餐接入共享节点池，根据区域负载自动切换，适合网页浏览、社交应用与基础流媒体。节点不固定单一出口，可根据时段灵活调度。</p>
+      </article>
+      <article class="card">
+        <h3>IPLC 专线优化</h3>
+        <p>旗舰版及以上套餐提供 IPLC 专线接入，数据不经公网穿越，直接通过专线抵达目标机房，显著降低国际链路抖动，适合游戏加速与实时协作。</p>
+      </article>
+      <article class="card">
+        <h3>流媒体解锁策略</h3>
+        <p>针对主流流媒体平台的区域限制，节点出口已做针对性优化。基础版支持常见平台，旗舰版与团队版提供原生 IP 解锁，避免被识别为代理流量。</p>
+      </article>
+      <article class="card">
+        <h3>多端同步接入</h3>
+        <p>支持主流客户端协议接入，根据套餐不同可同时连接 3 至 20 台设备。团队版支持企业级路由定制，满足多分支协同的复杂需求。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="wrap" id="plans">
+    <div class="section-intro">
+      <span class="eyebrow">套餐方案</span>
+      <h2>按用量与场景分层</h2>
+      <p>套餐设计遵循流量与设备数量两个核心维度，避免功能堆砌造成的选择困难。所有套餐均支持随时升级，差价按比例折算。</p>
+    </div>
+
+    <div>
+      <table class="plans-table">
+        <thead>
+          <tr>
+            <th>套餐对比</th>
+            <th class="featured-col">旗舰版<span class="tag">推荐</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="plan-name">基础版</td>
+            <td class="plan-name featured-col">旗舰版</td>
+          </tr>
+          <tr>
+            <td class="price">¥15/月</td>
+            <td class="price featured-col">¥35/月</td>
+          </tr>
+          <tr>
+            <td class="annual">按年付仅需 ¥150/年</td>
+            <td class="annual featured-col">按年付仅需 ¥350/年</td>
+          </tr>
+          <tr>
+            <td>每月 100GB 极速流量</td>
+            <td class="featured-col">每月 300GB 极速流量</td>
+          </tr>
+          <tr>
+            <td>支持 3 台设备同时在线</td>
+            <td class="featured-col">支持 5 台设备同时在线</td>
+          </tr>
+          <tr>
+            <td>解锁基础流媒体</td>
+            <td class="featured-col">全节点原生流媒体解锁</td>
+          </tr>
+          <tr>
+            <td>普通线路节点池</td>
+            <td class="featured-col">IPLC 专线游戏加速优化</td>
+          </tr>
+          <tr>
+            <td>标准工单支持</td>
+            <td class="featured-col">7x24 优先工单支持</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div>
+      <table class="plans-table">
+        <thead>
+          <tr>
+            <th>团队版</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="plan-name">团队版</td>
+          </tr>
+          <tr>
+            <td class="price">¥85/月</td>
+          </tr>
+          <tr>
+            <td class="annual">按年付仅需 ¥850/年</td>
+          </tr>
+          <tr><td>每月 1000GB 极速流量</td></tr>
+          <tr><td>支持 20 台设备同时在线</td></tr>
+          <tr><td>VIP 专属高带宽节点</td></tr>
+          <tr><td>支持企业定制路由</td></tr>
+          <tr><td>专属客户经理服务</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="wrap" id="clients">
+    <div class="section-intro">
+      <span class="eyebrow">客户端接入</span>
+      <h2>使用说明</h2>
+    </div>
+    <div class="clients-note">
+      JX数据支持主流第三方客户端协议接入，用户可使用已有的通用客户端软件连接，无需安装特定软件。具体协议参数与节点订阅地址将在订阅成功后通过站内消息提供。请妥善保管订阅链接，避免泄露导致流量盗用。
+    </div>
+  </section>
+
+  <section class="wrap" id="faq">
+    <div class="section-intro">
+      <span class="eyebrow">常见问题</span>
+      <h2>关于使用的几点说明</h2>
+    </div>
+
+    <div class="faq-grid">
+      <article class="faq-item">
+        <h3>流量每月是否会清零？</h3>
+        <p>套餐流量按自然月计算，每月 1 日重置。未使用完的流量不累积至次月。如本月流量提前用尽，可等待次月重置或升级至更高流量套餐。</p>
+      </article>
+      <article class="faq-item">
+        <h3>设备数量如何计算？</h3>
+        <p>同时在线设备数以实际建立连接为准，同一设备多协议接入只计一次。超出套餐限制的新连接将被拒绝，已连接设备不受影响。</p>
+      </article>
+      <article class="faq-item">
+        <h3>是否支持试用或退款？</h3>
+        <p>套餐开通后不支持试用退款，建议先购买基础版进行体验。如遇节点质量问题可提交工单，技术团队将协助排查并视情况调整。</p>
+      </article>
+      <article class="faq-item">
+        <h3>IPLC 专线与普通线路有何区别？</h3>
+        <p>IPLC 为点对点专线，数据不经过公网路由，延迟与抖动更低，适合游戏与实时会议。普通线路经多跳公网传输，日常使用足够，高峰时段可能出现波动。</p>
+      </article>
+      <article class="faq-item">
+        <h3>流媒体解锁是否保证永久可用？</h3>
+        <p>流媒体平台风控策略持续变化，无法承诺任何平台永久解锁。我们会持续更新出口 IP 策略，但具体可用性以实际测试为准，建议优先选择旗舰版以上的原生 IP 节点。</p>
+      </article>
+      <article class="faq-item">
+        <h3>团队版的企业定制路由如何实现？</h3>
+        <p>团队版用户可提交业务场景需求，由专属客户经理配置专用路由策略，包括指定出口区域、分流规则与带宽保障。定制周期通常为 3 至 5 个工作日。</p>
+      </article>
+    </div>
+  </section>
+</main>
+
+<nav class="bottom-nav">
+  <a href="#about">关于服务</a>
+  <a href="#plans">套餐方案</a>
+  <a href="#clients">客户端</a>
+  <a href="#faq">常见问题</a>
+</nav><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>
